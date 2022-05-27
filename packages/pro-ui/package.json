@@ -1,5 +1,5 @@
 {
-  "name": "pro-ui",
+  "name": "@solazzo/pro-ui",
   "version": "0.0.8",
   "description": "自用ui库",
   "author": "haitao.zhang <haitao.zhang@yintech.cn>",
@@ -19,5 +19,5 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "4942a89149e356e109e8e399c6521f08cfdcd25c"
+  "gitHead": "aea858f473f0b5afe0506bbe969997afcff40597"
 }

@@ -11,7 +11,7 @@
 
 <script>
 
-// import { ProTabs, ProTab } from 'pro-ui'
+// import { ProTabs, ProTab } from '@solazzo/pro-ui'
 export default {
   name: 'TabsView',
   components: {

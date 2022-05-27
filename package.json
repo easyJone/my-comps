@@ -13,7 +13,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "package": "vue-cli-service build --target lib ./packages/pro-ui/lib/index.js --name pro-ui --dest pro-ui"
+    "package": "vue-cli-service build --target lib ./packages/pro-ui/lib/index.js --name pro-ui --dest @solazzo/pro-ui"
   },
   "dependencies": {
     "core-js": "^3.8.3",
