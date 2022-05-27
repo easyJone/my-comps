@@ -4,7 +4,7 @@ import ProTab from './proTabs/pro-tab'
 
 const components = [
   ProTabs, // 标签栏组件
-  ProTab // 标签栏子项组件
+  ProTab // 标签栏子组件
 ]
 
 const install = Vue => {
