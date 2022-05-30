@@ -1,5 +1,5 @@
 import { isFunction } from '.'
-import { camelize } from './format'
+// import { camelize } from './format'
 import { SlotsMixin } from '@/mixins/slotsMixin'
 
 // 统一slots和scopedSlots
@@ -28,11 +28,11 @@ function transformFunctionComponent (pure) {
 }
 
 // 全局注册：优先调用组件的install
-function install (Vue) {
-  const { name } = this
-  Vue.component(name, this)
-  Vue.component(camelize(`-${name}`), this)
-}
+// function install (Vue) {
+//   const { name } = this
+//   Vue.component(name, this)
+//   Vue.component(camelize(`-${name}`), this)
+// }
 
 // 预设组件处理，混入获取slot兼容写法，定义组件install方法，这里的name为pro-xxx
 export function createComponent (name) {
@@ -47,7 +47,6 @@ export function createComponent (name) {
     }
 
     sfc.name = name
-    sfc.install = install
 
     return sfc
   }

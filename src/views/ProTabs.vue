@@ -11,12 +11,12 @@
 
 <script>
 
-// import { ProTabs, ProTab } from '@solazzo/pro-ui'
+// import { ProTabs } from '@solazzo/basic'
 export default {
   name: 'TabsView',
   components: {
     // ProTabs,
-    // ProTab
+    // ProTab: ProTabs.Item
   },
   data () {
     return {

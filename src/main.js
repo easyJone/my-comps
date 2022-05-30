@@ -4,13 +4,12 @@ import router from './router'
 import store from './store'
 
 // 全局引入所有组件
-import Components from '@solazzo/pro-ui'
-Vue.use(Components)
+import Basic from '@solazzo/basic'
+Vue.use(Basic)
 
 // 全局引入单个组件
-// import { ProTabs, ProTab } from '@solazzo/pro-ui'
+// import { ProTabs } from '@solazzo/basic'
 // Vue.use(ProTabs)
-// Vue.use(ProTab)
 
 Vue.config.productionTip = false
 

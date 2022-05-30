@@ -1,7 +1,7 @@
 {
-  "name": "@solazzo/pro-ui",
-  "version": "0.0.9",
-  "description": "自用ui库",
+  "name": "@solazzo/basic",
+  "version": "0.0.1",
+  "description": "Basic 基础组件",
   "author": "haitao.zhang <haitao.zhang@yintech.cn>",
   "homepage": "",
   "license": "ISC",
